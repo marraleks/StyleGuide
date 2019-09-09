@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/wgt3qdl.css");
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua:300,400,500,600,700,800,900&display=swap');
 
 //Styleguide variables
 $default-body-text: 16px;
@@ -14,7 +15,7 @@ $section-top-margin: 15px;
 
 html,
 body {
-  margin: 0;
+  margin: 5;
   padding: 0;
 }
 
@@ -134,29 +135,121 @@ ul {
   }
 }
 
-#montserrat {
-  font-family: 'montserrat';
-  .medium {
+#inknut {
+  font-family:'Inknut Antiqua', serif;
+  font-size: 25px;
+  
+  .f300inknut {
+    font-weight: 300;
+    color: aqua;
+  }
+  .f400inknut {
+    font-weight: 400;
+  }
+  .f500inknut {
     font-weight: 500;
   }
-  .semibold {
+  .f600inknut {
     font-weight: 600;
   }
-  .bold {
+  .f700inknut{
     font-weight: 700;
   }
-  .extrabold {
+  .f800inknut{
     font-weight: 800;
+  }
+  .f900inknut {
+    font-weight: 900;
   }
 }
 
-#lft-etica {
-  font-family:  lft-etica, sans-serif;
-  .ligth {
+#montserrat {
+  font-family: 'montserrat';
+  font-size: 25px;
+  .font300 {
     font-weight: 300;
   }
-  .semibold {
+  .font300i {
+    font-weight: 300;
+    font-style: italic;
+  }
+  .font400 {
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .font400i {
+    font-weight: 400;
+    font-style: italic;
+  }
+  .font500 {
+    font-weight: 500;
+  }
+  .font500i {
+    font-weight: 500;
+    font-style: italic;
+  }
+  .font600 {
     font-weight: 600;
+  }
+  .font600i {
+    font-weight: 600;
+    font-style: italic;
+  }
+  .font700 {
+    font-weight: 700;
+  }
+  .font700i {
+    font-weight: 700;
+    font-style: italic;
+  }
+  .font800{
+    font-weight: 800; 
+}
+  .font800i{
+  font-weight: 800; 
+  font-style: italic;
+}
+}
+
+
+#lft-etica {
+  font-family:  lft-etica, sans-serif;
+  font-size: 25px;
+  .font300 {
+    font-weight: 300;
+  }
+  .font300i{
+    font-weight: 300;
+    font-style: italic;
+  }
+  .font400{
+    font-weight: 400;
+  }
+  .font400i{
+    font-weight: 400;
+    font-style: italic;
+  }
+  .font500{
+    font-weight: 500;
+  }
+  .font500i {
+    font-weight: 500;
+    font-style: italic;
+  }
+  .font600 {
+    font-weight: 600;
+  }
+  .font600i {
+    font-weight: 600;
+    font-style: italic;
+  }
+  .font700 {
+    font-weight: 700;
+  }
+  .font700i {
+    font-weight: 700;
+    font-style: italic;
   }
 }
 

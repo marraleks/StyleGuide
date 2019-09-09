@@ -1,12 +1,14 @@
+@charset "UTF-8";
 @import url("https://use.typekit.net/wgt3qdl.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inknut+Antiqua:300,400,500,600,700,800,900&display=swap");
 * {
   box-sizing: border-box;
 }
 
 html,
 body {
-  margin: 0;
+  margin: 5;
   padding: 0;
 }
 
@@ -121,30 +123,119 @@ ul ul {
   padding-bottom: 20px;
 }
 
-#montserrat {
-  font-family: "montserrat";
+#inknut  {
+  font-family: "Inknut Antiqua", serif;
+  font-size: 25px;
 }
-#montserrat .medium {
+#inknut  .f300inknut {
+  font-weight: 300;
+  color: aqua;
+}
+#inknut  .f400inknut {
+  font-weight: 400;
+}
+#inknut  .f500inknut {
   font-weight: 500;
 }
-#montserrat .semibold {
+#inknut  .f600inknut {
   font-weight: 600;
 }
-#montserrat .bold {
+#inknut  .f700inknut {
   font-weight: 700;
 }
-#montserrat .extrabold {
+#inknut  .f800inknut {
   font-weight: 800;
+}
+#inknut  .f900inknut {
+  font-weight: 900;
+}
+
+#montserrat {
+  font-family: "montserrat";
+  font-size: 25px;
+}
+#montserrat .font300 {
+  font-weight: 300;
+}
+#montserrat .font300i {
+  font-weight: 300;
+  font-style: italic;
+}
+#montserrat .font400 {
+  font-weight: 400;
+  font-style: italic;
+}
+#montserrat .font400i {
+  font-weight: 400;
+  font-style: italic;
+}
+#montserrat .font500 {
+  font-weight: 500;
+}
+#montserrat .font500i {
+  font-weight: 500;
+  font-style: italic;
+}
+#montserrat .font600 {
+  font-weight: 600;
+}
+#montserrat .font600i {
+  font-weight: 600;
+  font-style: italic;
+}
+#montserrat .font700 {
+  font-weight: 700;
+}
+#montserrat .font700i {
+  font-weight: 700;
+  font-style: italic;
+}
+#montserrat .font800 {
+  font-weight: 800;
+}
+#montserrat .font800i {
+  font-weight: 800;
+  font-style: italic;
 }
 
 #lft-etica {
   font-family: lft-etica, sans-serif;
+  font-size: 25px;
 }
-#lft-etica .ligth {
+#lft-etica .font300 {
   font-weight: 300;
 }
-#lft-etica .semibold {
+#lft-etica .font300i {
+  font-weight: 300;
+  font-style: italic;
+}
+#lft-etica .font400 {
+  font-weight: 400;
+}
+#lft-etica .font400i {
+  font-weight: 400;
+  font-style: italic;
+}
+#lft-etica .font500 {
+  font-weight: 500;
+}
+#lft-etica .font500i {
+  font-weight: 500;
+  font-style: italic;
+}
+#lft-etica .font600 {
   font-weight: 600;
+}
+#lft-etica .font600i {
+  font-weight: 600;
+  font-style: italic;
+}
+#lft-etica .font700 {
+  font-weight: 700;
+}
+#lft-etica .font700i {
+  font-weight: 700;
+  font-style: italic;
 }
 
 footer {
