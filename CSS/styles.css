@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://use.typekit.net/wgt3qdl.css");
 @import url("https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Inknut+Antiqua:300,400,500,600,700,800,900&display=swap");
@@ -123,30 +122,29 @@ ul ul {
   padding-bottom: 20px;
 }
 
-#inknut  {
+#inknut {
   font-family: "Inknut Antiqua", serif;
   font-size: 25px;
 }
-#inknut  .f300inknut {
+#inknut .f300inknut {
   font-weight: 300;
-  color: aqua;
 }
-#inknut  .f400inknut {
+#inknut .f400inknut {
   font-weight: 400;
 }
-#inknut  .f500inknut {
+#inknut .f500inknut {
   font-weight: 500;
 }
-#inknut  .f600inknut {
+#inknut .f600inknut {
   font-weight: 600;
 }
-#inknut  .f700inknut {
+#inknut .f700inknut {
   font-weight: 700;
 }
-#inknut  .f800inknut {
+#inknut .f800inknut {
   font-weight: 800;
 }
-#inknut  .f900inknut {
+#inknut .f900inknut {
   font-weight: 900;
 }
 
