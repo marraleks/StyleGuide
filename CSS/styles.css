@@ -124,7 +124,7 @@ ul ul {
 
 #inknut {
   font-family: "Inknut Antiqua", serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 #inknut .f300inknut {
   font-weight: 300;
@@ -150,7 +150,7 @@ ul ul {
 
 #montserrat {
   font-family: "montserrat";
-  font-size: 25px;
+  font-size: 20px;
 }
 #montserrat .font300 {
   font-weight: 300;
@@ -198,7 +198,7 @@ ul ul {
 
 #lft-etica {
   font-family: lft-etica, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
 }
 #lft-etica .font300 {
   font-weight: 300;
@@ -234,6 +234,23 @@ ul ul {
 #lft-etica .font700i {
   font-weight: 700;
   font-style: italic;
+}
+
+.bildestr {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10vw;
+  flex-wrap: wrap;
+}
+.bildestr .hoy {
+  height: 70vh;
+  align-self: center;
+  margin-top: 40px;
+}
+.bildestr .lav {
+  height: 30vh;
+  align-self: center;
+  margin-top: 40px;
 }
 
 footer {
