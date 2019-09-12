@@ -44,6 +44,55 @@ footer {
   body {
     flex-wrap: wrap;
   }
+  body #checkbox {
+    display: none;
+  }
+  body #checkbox:checked ~ #menu {
+    left: 0;
+  }
+  body #checkbox:checked ~ #burger span:first-child {
+    transform: translateY(11px) rotate(45deg);
+  }
+  body #checkbox:checked ~ #burger span:last-child {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+  body #checkbox:checked ~ #burger span:nth-child(2) {
+    width: 0px;
+  }
+  body #burger {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 32px;
+    width: 32px;
+    display: grid;
+    grid-template-rows: 4px 4px 4px;
+    align-content: space-around;
+    cursor: pointer;
+    z-index: 2;
+  }
+  body #burger span {
+    background-color: #1a040c;
+    transition: 0.3s;
+  }
+  body #menu {
+    position: fixed;
+    top: 0;
+    left: 100vw;
+    width: 100vw;
+    height: 100vh;
+    background-color: #e4e4e4;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+  }
+  body #menu a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-family: 16px;
+  }
 
   nav,
 main,
