@@ -48,70 +48,79 @@ footer {
   margin-left: calc(250px + 10%);
 }
 
-#checkbox{
-  display: none;
-}
 
 @media screen and (max-width: 650px) {
+  html,
   body {
-    flex-wrap: wrap;
-  
-    #checkbox {
-      &:checked ~ #menu {
-          left:0;
+  scroll-behavior: auto;
+}
+  .menu {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    height: 32px;
+    width: 32px;
+    display: grid;
+    grid-template-rows: 4px 4px 4px;
+    align-content: space-around;
+    cursor: pointer;
+    z-index: 2;
+      span{
+        background-color: rgb(26, 4, 12);
+        transition: 0.3s;
       }
-      &:checked ~ #burger span {
-           &:first-child{
-               transform: translateY(11px) rotate(45deg);
-           }
-           &:last-child{
-              transform: translateY(-11px) rotate(-45deg);
+  }
+  
+  .menu.visible {
+    right: 20px;
+    height: 32px;
+    border-radius: 0;
+    transition: 1s;
+        span {
+          &:first-child{
+              transform: translateY(11px) rotate(45deg);
           }
-          &:nth-child(2){
-              width: 0px;
-          }
-      
-      }
-  }
-
-    #burger{
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      height: 32px;
-      width: 32px;
-      display: grid;
-      grid-template-rows: 4px 4px 4px;
-      align-content: space-around;
-      cursor: pointer;
-      z-index: 2;
-      span {
-          background-color: rgb(26, 4, 12);
-          transition: 0.3s;
+          &:last-child{
+             transform: translateY(-11px) rotate(-45deg);
+         }
+         &:nth-child(2){
+             width: 0px;
+         }
       }
   }
 
 
-  
-  #menu {
-      position: fixed;
-      top: 0;
-      left: 100vw;
-      width: 100vw;
-      height: 100vh;
-      background-color: rgb(228, 228, 228);
-      display: grid;
-      justify-content: center;
-      align-items: center;
-      transition: 0.5s;
-      a{
-          color: rgb(0, 0, 0);
-          text-decoration: none;
-          font-size: 1.4rem;
-          font-family: $default-body-text;
-      }
+  #sideNav {
+    top: 0;
+    left: 100vw;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(22, 22, 22);
+    position: fixed;
+    z-index: 1;
+    padding-top: 5vh;
+    transition: 1s;
   }
   
+  #sideNav.visible {
+    left: 0;
+  }
+  
+  #sideNav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    padding: 5px;
+    transition: 1s;
+  
+  }
+  
+  #sideNav a:hover {
+    color:  rgba(116, 116, 116, 0.466);
   }
 
   nav,
