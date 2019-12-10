@@ -60,7 +60,7 @@ body {
     z-index: 2;
   }
   .menu span {
-    background-color: #1a040c;
+    background-color: #181818;
     transition: 0.3s;
   }
 
@@ -85,7 +85,7 @@ body {
     left: 100vw;
     height: 100vh;
     width: 100vw;
-    background-color: #161616;
+    background-color: #d2d2d2;
     position: fixed;
     z-index: 1;
     padding-top: 5vh;
@@ -98,14 +98,16 @@ body {
 
   #sideNav a {
     text-decoration: none;
-    color: white;
-    font-weight: 900;
-    text-align: center;
+    color: #131313;
+    font-weight: 500;
+    text-align: left;
     display: flex;
     flex-direction: column;
     font-size: 1rem;
     padding: 5px;
+    padding-left: 50px;
     transition: 1s;
+    font-family: "lft-etica", -apple-system, "Helvetica Neue", sans-serif;
   }
 
   #sideNav a:hover {
